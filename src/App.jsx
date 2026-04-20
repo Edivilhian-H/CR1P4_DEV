@@ -1,10 +1,11 @@
+import { GlobalStyle } from "./styles/global"
+import Hero from "./components/Hero"
 
 function App() {
- 
-
   return (
     <>
-      <h1>Olá, mundo!</h1>
+      <GlobalStyle />
+      <Hero />
     </>
   )
 }
