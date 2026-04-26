@@ -1,6 +1,10 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
+
+import { theme } from "./theme.js";
 
 export const GlobalStyle = createGlobalStyle`
+
+
  
 *{
     margin: 0;
@@ -9,19 +13,9 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     }
 
-      body {
-    background: radial-gradient(circle at top right, #1a1a2e, #0b0f1a);
-    color: #E5E7EB;
-    font-family: 'Poppins', sans-serif;
-  }
+body {
+    background-color: ${theme.colors.background};
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
 
-  button {
-    cursor: pointer;
-    font-family: inherit;
-  }
 `;
