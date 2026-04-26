@@ -3,7 +3,9 @@ import * as S from "./styles";
 function Hero() {
   return (
     <S.Container>
-      <h1> hellow world</h1>
+      <S.Content>
+        <S.Badge>DESENVOLVEDOR</S.Badge>
+      </S.Content>
     </S.Container>
   );
 }
