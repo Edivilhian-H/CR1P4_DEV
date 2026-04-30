@@ -46,3 +46,48 @@ export const Description = styled.p`
 
   color: ${({ theme }) => theme.colors.textGray};
 `;
+
+export const ButtonGroup = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+`;
+
+export const PrimaryButton = styled.button`
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+
+  color: white;
+  font-weight: 500;
+
+  background: linear-gradient(
+    90deg,
+    ${({ theme }) => theme.colors.primary},
+    ${({ theme }) => theme.colors.secondary}
+  );
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
+
+export const SecondaryButton = styled.button`
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  background: transparent;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+
+  color: ${({ theme }) => theme.colors.text};
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    border-color: ${({ theme }) => theme.colors.primary};
+  }
+`;

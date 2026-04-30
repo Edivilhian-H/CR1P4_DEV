@@ -15,6 +15,11 @@ function Hero() {
         Desenvolvedor focado em React, criando aplicações modernas, responsivas
         e com alta performance.
       </S.Description>
+
+      <S.ButtonGroup>
+        <S.PrimaryButton>Ver Projetos</S.PrimaryButton>
+        <S.SecondaryButton>Contato</S.SecondaryButton>
+      </S.ButtonGroup>
     </S.Container>
   );
 }
