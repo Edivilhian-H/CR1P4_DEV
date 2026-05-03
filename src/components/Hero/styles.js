@@ -49,14 +49,16 @@ export const Description = styled.p`
 
 export const ButtonGroup = styled.div`
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 20px; 
 `;
 
 export const PrimaryButton = styled.button`
   padding: 10px 16px;
   border-radius: 8px;
   border: none;
+  width: 150px;
 
   color: white;
   font-weight: 500;
@@ -78,6 +80,8 @@ export const PrimaryButton = styled.button`
 export const SecondaryButton = styled.button`
   padding: 10px 16px;
   border-radius: 8px;
+  width: 150px;
+
 
   background: transparent;
   border: 1px solid ${({ theme }) => theme.colors.border};
