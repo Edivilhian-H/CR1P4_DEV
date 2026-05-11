@@ -1,20 +1,21 @@
-function social() {
+import * as S from "./styles";
+
+function Social() {
   return (
-    <div className="social">
-      <a href="https://www.facebook.com/">
-        <i className="fa fa-facebook"></i>
-      </a>
-      <a href="https://www.twitter.com/">
-        <i className="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com/">
-        <i className="fa fa-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/">
-        <i className="fa fa-instagram"></i>
-      </a>
-    </div>
+   <S.Social>
+  <a href="#" target="_blank">
+    <i className="bx bxl-github"></i>
+  </a>
+
+  <a href="#" target="_blank">
+    <i className="bx bxl-linkedin"></i>
+  </a>
+
+  <a href="#" target="_blank">
+    <i className="bx bxl-instagram"></i>
+  </a>
+</S.Social>
   );
 }
 
-export default social;
+export default Social;

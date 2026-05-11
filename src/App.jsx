@@ -4,6 +4,7 @@ import { theme } from "./styles/theme";
 
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Social from "./components/social";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <GlobalStyle />
         <Header />
         <Hero />
+        <Social />
       </ThemeProvider>
     </>
   );
