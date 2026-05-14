@@ -5,6 +5,7 @@ import { theme } from "./styles/theme";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Social from "./components/social";
+import About  from "../src/components/about";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Hero />
         <Social />
+        <About />
       </ThemeProvider>
     </>
   );
