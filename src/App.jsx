@@ -5,7 +5,7 @@ import { theme } from "./styles/theme";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Social from "./components/social";
-import About  from "../src/components/about";
+import About  from "./components/about";
 
 function App() {
   return (
