@@ -32,3 +32,5 @@ export function Projects() {
     </S.Container>
   );
 }
+
+export default Projects;
