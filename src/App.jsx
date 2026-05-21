@@ -7,6 +7,7 @@ import Hero from "./components/hero";
 import Social from "./components/social";
 import About from "./components/about";
 import Projects from "./components/projects";
+import Skills from "./components/skills";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Social />
         <About />
         <Projects />
+        <Skills />
       </ThemeProvider>
     </>
   );
