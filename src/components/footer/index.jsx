@@ -1,7 +1,40 @@
 import * as S from "./styles";
 
-function Footer() {
-  return <h1>Footer</h1>;
+export function Footer() {
+  return (
+    <S.Container>
+      <S.Title>
+        Vamos trabalhar juntos 🚀
+      </S.Title>
+
+      <S.Description>
+        Estou disponível para oportunidades,
+        freelas e novos projetos.
+      </S.Description>
+
+      <S.Button>
+        Entrar em contato
+      </S.Button>
+
+      <S.Social>
+        <a href="#">
+          <i className="bx bxl-github"></i>
+        </a>
+
+        <a href="#">
+          <i className="bx bxl-linkedin"></i>
+        </a>
+
+        <a href="#">
+          <i className="bx bxl-instagram"></i>
+        </a>
+      </S.Social>
+
+      <S.Copy>
+        © 2026 - Edivilhian H. Todos os direitos reservados.
+      </S.Copy>
+    </S.Container>
+  );
 }
 
 export default Footer;
