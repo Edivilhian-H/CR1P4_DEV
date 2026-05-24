@@ -3,10 +3,23 @@ import styled from "styled-components";
 export const Container = styled.section`
   width: 100%;
   padding: 0 16px;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+    min-height: 100vh;
+  }
 `;
 
 export const Content = styled.div`
   display: flex;
+
+  @media (min-width: 1024px) {
+  max-width: 550px;
+}
 `;
 
 export const Badge = styled.span`
@@ -51,7 +64,7 @@ export const ButtonGroup = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 20px; 
+  margin-top: 20px;
 `;
 
 export const PrimaryButton = styled.button`
@@ -81,7 +94,6 @@ export const SecondaryButton = styled.button`
   padding: 10px 16px;
   border-radius: 8px;
   width: 150px;
-
 
   background: transparent;
   border: 1px solid ${({ theme }) => theme.colors.border};
