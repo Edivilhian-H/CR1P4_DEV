@@ -18,14 +18,14 @@ function Header() {
           <span></span>
         </S.ButtonMenu>
       </S.Header>
-      
+
       {menuOpen && (
         <S.MobileMenu>
-          <a href="#">Início</a>
+          <a href="#home">Início</a>
           <a href="#">Sobre</a>
           <a href="#">Projetos</a>
           <a href="#">Skills</a>
-          <a href="#">Contato</a>
+          <a href="#contact">Contato</a>
         </S.MobileMenu>
       )}
     </S.Container>

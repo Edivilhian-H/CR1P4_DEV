@@ -64,10 +64,15 @@ export const MobileMenu = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 
   a {
     color: ${({ theme }) => theme.colors.text};
 
     font-size: 18px;
+
+    text-decoration: none;
+
   }
 `;
