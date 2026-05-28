@@ -43,3 +43,31 @@ export const ButtonMenu = styled.button`
     box-shadow: 0 0 8px ${({ theme }) => theme.colors.primary};
   }
 `;
+
+export const MobileMenu = styled.div`
+  position: absolute;
+
+  top: 80px;
+  left: 20px;
+  right: 20px;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  background: ${({ theme }) => theme.colors.backgroundLight};
+
+  backdrop-filter: blur(10px);
+
+  border: 1px solid ${({ theme }) => theme.colors.border};
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  a {
+    color: ${({ theme }) => theme.colors.text};
+
+    font-size: 18px;
+  }
+`;
