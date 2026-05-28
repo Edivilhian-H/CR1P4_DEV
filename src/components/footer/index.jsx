@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 export function Footer() {
   return (
-    <S.Container>
+    <S.Container id="contact">
       <S.Title>
         Vamos trabalhar juntos 🚀
       </S.Title>

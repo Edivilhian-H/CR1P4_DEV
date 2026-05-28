@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 function Hero() {
   return (
-    <S.Container>
+    <S.Container id="home"> 
       <S.Content>
         <S.Badge>Developer</S.Badge>
       </S.Content>
