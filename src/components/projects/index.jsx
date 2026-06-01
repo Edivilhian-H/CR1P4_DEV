@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 export function Projects() {
   return (
-    <S.Container>
+    <S.Container id="projects">
       <S.Header>
         <S.Title>
           <span></span>

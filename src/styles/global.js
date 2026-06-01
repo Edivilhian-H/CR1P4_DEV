@@ -17,5 +17,9 @@ body {
     background-color: ${theme.colors.background};
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 `;

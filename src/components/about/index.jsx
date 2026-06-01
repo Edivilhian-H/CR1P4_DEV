@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 export function About() {
   return (
-    <S.Container>
+    <S.Container id="about">
       <S.Title>
         <span></span>
         Sobre mim
