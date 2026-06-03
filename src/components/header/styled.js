@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div`
   width: 100%;
   padding: 20px;
@@ -38,6 +36,8 @@ export const ButtonMenu = styled.button`
     background: ${({ theme }) => theme.colors.text};
     border-radius: 2px;
     transition: all 0.2s ease;
+
+    
   }
 
   &:hover span {
@@ -75,8 +75,8 @@ export const MobileMenu = styled.div`
     font-size: 18px;
 
     text-decoration: none;
-
   }
 
-  
+
+
 `;

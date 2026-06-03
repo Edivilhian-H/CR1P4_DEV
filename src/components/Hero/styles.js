@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import Img from "../../assets/heroimg.png";
+
 export const Container = styled.section`
   width: 100%;
   padding: 0 16px;
@@ -11,6 +13,8 @@ export const Container = styled.section`
     gap: 60px;
 
     min-height: 100vh;
+
+    background: url(${Img}) no-repeat center;
   }
 `;
 
@@ -18,8 +22,8 @@ export const Content = styled.div`
   display: flex;
 
   @media (min-width: 1024px) {
-  max-width: 550px;
-}
+    max-width: 550px;
+  }
 `;
 
 export const Badge = styled.span`
