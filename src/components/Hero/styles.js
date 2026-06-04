@@ -111,3 +111,8 @@ export const SecondaryButton = styled.button`
     border-color: ${({ theme }) => theme.colors.primary};
   }
 `;
+
+export const BkImg = styled.img`
+  width: 120%;
+  margin-left: -20px;
+`;
