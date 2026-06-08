@@ -23,6 +23,14 @@ function Header() {
         </S.ButtonMenu>
       </S.Header>
 
+          <S.DesktopMenu>
+          <a href="#home" onClick={closeMenu}>Início</a>
+          <a href="#about" onClick={closeMenu}>Sobre</a>
+          <a href="#projects" onClick={closeMenu}>Projetos</a>
+          <a href="#skills" onClick={closeMenu}>Skills</a>
+          <a href="#contact" onClick={closeMenu}>Contato</a>
+        </S.DesktopMenu>
+
       {menuOpen && (
         <S.MobileMenu>
           <a href="#home" onClick={closeMenu}>Início</a>

@@ -36,13 +36,15 @@ export const ButtonMenu = styled.button`
     background: ${({ theme }) => theme.colors.text};
     border-radius: 2px;
     transition: all 0.2s ease;
-
-    
   }
 
   &:hover span {
     background: ${({ theme }) => theme.colors.primary};
     box-shadow: 0 0 8px ${({ theme }) => theme.colors.primary};
+  }
+
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
 
@@ -77,6 +79,16 @@ export const MobileMenu = styled.div`
     text-decoration: none;
   }
 
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
 
+export const DesktopMenu = styled.div`
+  display: none;
 
+  @media (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+  }
 `;
