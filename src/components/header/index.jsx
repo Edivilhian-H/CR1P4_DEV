@@ -1,8 +1,9 @@
 import { useState } from "react";
 
+import ProfileImg from "../../assets/profile-picture.png";
+
 import * as S from "./styled";
 
-import Logo from "../../assets/Logo.png";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,8 +15,8 @@ function Header() {
   return (
     <S.Container>
       <S.Header>
-        <S.Logo src={Logo} alt="Logo" />
-
+        <S.ProfileImg src={ProfileImg} alt="Foto de perfil" />
+       
         <S.ButtonMenu onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
           <span></span>

@@ -1,7 +1,5 @@
 import * as S from "./styles";
 
-import ImgMobo from "../../assets/heroMobo.jpeg";
-
 function Hero() {
   return (
     <S.Container id="home">
@@ -22,11 +20,6 @@ function Hero() {
         <S.PrimaryButton>Ver Projetos</S.PrimaryButton>
         <S.SecondaryButton>Contato</S.SecondaryButton>
       </S.ButtonGroup>
-
-      <S.BkImg
-        src={ImgMobo}
-        alt="Imagem de um desenvolvedor trabalhando em um laptop"
-      />
     </S.Container>
   );
 }

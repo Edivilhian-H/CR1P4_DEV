@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import Img from "../../assets/heroimg.png";
-
 export const Container = styled.section`
   width: 100%;
   padding: 0 16px;
@@ -13,8 +11,6 @@ export const Container = styled.section`
     gap: 60px;
 
     min-height: 100vh;
-
-    background: url(${Img}) no-repeat center;
   }
 `;
 

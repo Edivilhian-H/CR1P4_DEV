@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 40px;
-  padding: 24px;
+  margin: 10px 16px;
+  padding: 10px;
 
   border-radius: 20px;
 
@@ -53,16 +53,19 @@ export const Stats = styled.div`
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-radius: 14px;
 
-  gap: 14px;
+
+
+  border: 1px solid ${({ theme }) => theme.colors.border};
+
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
 `;
 
 export const StatBox = styled.div`
   padding: 15px 15px 15px 15px;
-
-  border-radius: 14px;
-
-  border: 1px solid ${({ theme }) => theme.colors.border};
 
   text-align: center;
 

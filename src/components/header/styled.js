@@ -14,9 +14,16 @@ export const Header = styled.header`
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
 `;
 
-export const Logo = styled.img`
-  width: 55px;
-  padding-bottom: 10px;
+export const ProfileImg = styled.img`
+
+ display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  width: 50px;
+  padding: 3px;
+  margin-bottom: 5px;
 `;
 
 export const ButtonMenu = styled.button`
