@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import ProfileImg from "../../assets/profile-picture.png";
 
-import * as S from "./styled";
+import * as S from "./styles";
 
 
 function Header() {
