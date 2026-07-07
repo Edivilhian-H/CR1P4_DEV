@@ -9,7 +9,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
-import BackArrow from "./components/backArrow";
+import BackArrow from "./components/ScrollToTop";
 
 function App() {
   return (
