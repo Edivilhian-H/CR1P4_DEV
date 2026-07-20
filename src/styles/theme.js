@@ -15,5 +15,7 @@ export const theme = {
     text: "#E5E7EB",
     textGray: "#9CA3AF",
     textLight: "#6B7280",
+
+    glass: "rgba(255, 255, 255, 0.1)",
   }
 }

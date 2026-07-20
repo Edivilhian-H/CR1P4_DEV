@@ -15,10 +15,11 @@ export const Button = styled.button`
   border: none;
   border-radius: 50%;
 
-     background: ${({ theme }) => theme.colors.primary};
+background: ${({ theme }) => theme.colors.glass};
 
-  backdrop-filter: blur(10px);
-  color: ${({ theme }) => theme.colors.text};
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+
 
   font-size: 24px;
   font-weight: bold;
