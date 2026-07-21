@@ -15,8 +15,7 @@ export const Header = styled.header`
 `;
 
 export const ProfileImg = styled.img`
-
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -93,6 +92,23 @@ export const MobileMenu = styled.div`
 
 export const DesktopMenu = styled.div`
   display: none;
+
+
+  padding: 20px;
+
+
+  a {
+    color: ${({ theme }) => theme.colors.text};
+
+    font-size: 18px;
+
+    text-decoration: none;
+    transition:  0.2s ;
+  }
+
+  a:hover {
+    color: ${({ theme }) => theme.colors.primary};
+  }
 
   @media (min-width: 768px) {
     display: flex;
