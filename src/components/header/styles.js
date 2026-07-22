@@ -93,9 +93,10 @@ export const MobileMenu = styled.div`
 export const DesktopMenu = styled.div`
   display: none;
 
-
   padding: 20px;
 
+  align-items: center;
+  justify-content: center;
 
   a {
     color: ${({ theme }) => theme.colors.text};
@@ -103,10 +104,30 @@ export const DesktopMenu = styled.div`
     font-size: 18px;
 
     text-decoration: none;
-    transition:  0.2s ;
+    transition: 0.2s;
   }
 
   a:hover {
+    color: ${({ theme }) => theme.colors.primary};
+  }
+
+  button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 25px;
+    cursor: pointer;
+
+    color: ${({ theme }) => theme.colors.text};
+    border: solid 1px ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => theme.colors.background};
+
+    font-size: 18px;
+    transition: 0.2s;
+  }
+
+  button:hover {
+    
+    background: ${({ theme }) => theme.colors.backgroundSecondary};
     color: ${({ theme }) => theme.colors.primary};
   }
 

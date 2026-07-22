@@ -30,6 +30,9 @@ function Header() {
             <a href="#projects" onClick={closeMenu}>Projetos</a>
             <a href="#skills" onClick={closeMenu}>Skills</a>
             <a href="#contact" onClick={closeMenu}>Contato</a>
+
+            <button> Vamos conversar </button>
+            
         </S.DesktopMenu>
         
       </S.Header>
