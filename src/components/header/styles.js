@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   padding: 20px;
+
+  @media (min-width: 768px) {
+    padding: 0px 5px;
+  }
 `;
 
 export const Header = styled.header`
@@ -126,7 +130,6 @@ export const DesktopMenu = styled.div`
   }
 
   button:hover {
-    
     background: ${({ theme }) => theme.colors.backgroundSecondary};
     color: ${({ theme }) => theme.colors.primary};
   }
