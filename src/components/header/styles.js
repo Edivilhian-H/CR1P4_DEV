@@ -38,7 +38,7 @@ export const ButtonMenu = styled.button`
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
 
   span {
     width: 100%;
