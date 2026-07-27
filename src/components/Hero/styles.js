@@ -4,22 +4,13 @@ export const Container = styled.section`
   width: 100%;
   padding: 0 16px;
 
-  @media (min-width: 1024px) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
-
-    min-height: 100vh;
+  @media (min-width: 768px) {
+    margin-top: 40px;
   }
 `;
 
 export const Content = styled.div`
   display: flex;
-
-  @media (min-width: 1024px) {
-    max-width: 550px;
-  }
 `;
 
 export const Badge = styled.span`
@@ -38,6 +29,7 @@ export const Badge = styled.span`
 `;
 
 export const Title = styled.h1`
+  width: 38%;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
