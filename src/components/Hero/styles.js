@@ -5,7 +5,7 @@ export const Container = styled.section`
   padding: 0 16px;
 
   @media (min-width: 768px) {
-    margin-top: 40px;
+    margin: 40px 0px 10px 40px;
   }
 `;
 
@@ -29,7 +29,7 @@ export const Badge = styled.span`
 `;
 
 export const Title = styled.h1`
-  width: 38%;
+  width: 80%;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
@@ -41,6 +41,10 @@ export const Title = styled.h1`
   span {
     color: ${({ theme }) => theme.colors.secondary};
   }
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
 `;
 
 export const Description = styled.p`
@@ -50,6 +54,10 @@ export const Description = styled.p`
   line-height: 1.6;
 
   color: ${({ theme }) => theme.colors.textGray};
+
+  @media (min-width: 768px) {
+    width: 38%;
+  }
 `;
 
 export const ButtonGroup = styled.div`
@@ -57,6 +65,10 @@ export const ButtonGroup = styled.div`
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const PrimaryButton = styled.button`
