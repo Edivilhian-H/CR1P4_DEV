@@ -29,4 +29,10 @@ export const Social = styled.div`
   i {
     font-size: 20px;
   }
+
+
+
+  @media (min-width: 768px) {
+  margin: 20px 0 20px 40px 
+  }
 `;
