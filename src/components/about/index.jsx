@@ -3,6 +3,14 @@ import * as S from "./styles";
 export function About() {
   return (
     <S.Container id="about">
+      <S.Hero>
+        <img src="" alt="" />
+        <div>
+          Desenvolvedor 
+          que ama <span>tecnologia</span>
+          e resolve<span>problemas</span> .
+        </div>
+      </S.Hero>
       <S.Title>
         <span></span>
         Sobre mim

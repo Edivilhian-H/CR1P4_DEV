@@ -9,6 +9,15 @@ export const Container = styled.section`
   border: 1px solid ${({ theme }) => theme.colors.border};
 
   background: rgba(255, 255, 255, 0.02);
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+`;
+
+export const Hero = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 export const Title = styled.h2`
