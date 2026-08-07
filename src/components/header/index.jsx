@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-import ProfileImg from "../../assets/profile-picture.png";
+import ProfilePicture from "../profilepicture";
 
 import * as S from "./styles";
 
@@ -15,7 +14,7 @@ function Header() {
   return (
     <S.Container>
       <S.Header>
-        <S.ProfileImg src={ProfileImg} alt="Foto de perfil" />
+        <ProfilePicture/>
        
         <S.ButtonMenu onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>

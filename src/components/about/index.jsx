@@ -1,14 +1,16 @@
 import * as S from "./styles";
+import ProfilePicture from "../profilepicture";
 
 export function About() {
   return (
     <S.Container id="about">
       <S.Hero>
-        <img src="" alt="" />
         <div>
-          Desenvolvedor 
-          que ama <span>tecnologia</span>
-          e resolve<span>problemas</span> .
+          <ProfilePicture id="ImgProfile" />
+          <p>
+            Desenvolvedor que ama <span>tecnologia</span>e resolve
+            <span>problemas</span> .
+          </p>
         </div>
       </S.Hero>
       <S.Title>
