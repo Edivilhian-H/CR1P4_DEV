@@ -3,15 +3,16 @@ import ProfilePicture from "../profilepicture";
 
 export function About() {
   return (
-    <S.Container id="about">
+    <S.Container>
       <S.Hero>
-        <div>
-          <ProfilePicture id="ImgProfile" />
+        <S.DtArea>
+          <ProfilePicture />
           <p>
-            Desenvolvedor que ama <span>tecnologia</span>e resolve
-            <span>problemas</span> .
+            Desenvolvedor <br />
+            que ama <span>tecnologia</span> <br />e resolve
+            <span>problemas</span>.
           </p>
-        </div>
+        </S.DtArea>
       </S.Hero>
       <S.Title>
         <span></span>

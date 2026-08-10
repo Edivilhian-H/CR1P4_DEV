@@ -18,6 +18,48 @@ export const Container = styled.section`
 export const Hero = styled.div`
   display: flex;
   align-items: center;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid ${({ theme }) => theme.colors.pink};
+    border-radius: 16px;
+
+    padding: 20px;
+    margin: 20px;
+
+    color: ${({ theme }) => theme.colors.text};
+
+    p {
+      font-size: 20px;
+      font-weight: 400;
+
+      width: 200px;
+      line-height: 1.3;
+
+      margin: 0 10px 10px 0px;
+    }
+
+    span {
+      color: ${({ theme }) => theme.colors.primary};
+    }
+  }
+`;
+
+export const DtArea = styled.div`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+    img{
+      width: 55px;
+    }
+  }
 `;
 
 export const Title = styled.h2`
@@ -63,8 +105,6 @@ export const Stats = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 14px;
-
-
 
   border: 1px solid ${({ theme }) => theme.colors.border};
 
