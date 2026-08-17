@@ -12,6 +12,9 @@ export const Container = styled.section`
 
   @media (min-width: 768px) {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
   }
 `;
 
@@ -54,20 +57,24 @@ export const DtArea = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
-    
-    img{
+
+    img {
       width: 55px;
     }
   }
 `;
 
-export const Title = styled.h2`
+export const AboutMe = styled.div`
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
+export const Title = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-
-  font-size: 28px;
 
   span {
     width: 10px;
@@ -77,6 +84,11 @@ export const Title = styled.h2`
 
     background: ${({ theme }) => theme.colors.primary};
   }
+
+  h3 {
+    font-size: 28px;
+    color: ${({ theme }) => theme.colors.text};
+  }
 `;
 
 export const Description = styled.p`
@@ -85,6 +97,10 @@ export const Description = styled.p`
   line-height: 1.8;
 
   color: ${({ theme }) => theme.colors.textGray};
+
+  @media (min-width: 768px) {
+    width: 400px;
+  }
 `;
 
 export const Topics = styled.div`
@@ -93,10 +109,19 @@ export const Topics = styled.div`
   display: flex;
   flex-direction: column;
   gap: 14px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 10px;
+  }
 `;
 
 export const Topic = styled.div`
   color: ${({ theme }) => theme.colors.text};
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
 `;
 
 export const Stats = styled.div`

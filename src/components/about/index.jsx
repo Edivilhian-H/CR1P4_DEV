@@ -10,27 +10,30 @@ export function About() {
           <p>
             Desenvolvedor <br />
             que ama <span>tecnologia</span> <br />e resolve
-            <span>problemas</span>.
+            <span> problemas</span>.
           </p>
         </S.DtArea>
       </S.Hero>
-      <S.Title>
-        <span></span>
-        Sobre mim
-      </S.Title>
 
-      <S.Description>
-        Sou desenvolvedor Front-End apaixonado por tecnologia e por criar
-        interfaces modernas, rápidas e responsivas.
-      </S.Description>
+      <S.AboutMe>
+        <S.Title>
+          <span></span>
+          <h3>Sobre mim</h3>
+        </S.Title>
 
-      <S.Topics>
-        <S.Topic>⚡ Focado em resultados</S.Topic>
+        <S.Description>
+          Sou desenvolvedor Front-End apaixonado por tecnologia e por criar
+          interfaces modernas, rápidas e responsivas.
+        </S.Description>
 
-        <S.Topic>💻 Código limpo</S.Topic>
+        <S.Topics>
+          <S.Topic>⚡ Focado em resultados</S.Topic>
 
-        <S.Topic>🚀 Sempre aprendendo</S.Topic>
-      </S.Topics>
+          <S.Topic>💻 Código limpo</S.Topic>
+
+          <S.Topic>🚀 Sempre aprendendo</S.Topic>
+        </S.Topics>
+      </S.AboutMe>
 
       <S.Stats>
         <S.StatBox>
